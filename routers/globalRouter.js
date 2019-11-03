@@ -9,4 +9,8 @@ globalRouter.get(routes.login, (req, res) => res.send("login"));
 globalRouter.get(routes.logout, (req, res) => res.send("logout"));
 globalRouter.get(routes.search, (req, res) => res.send("search"));
 
+
+
+
+
 export default globalRouter;
