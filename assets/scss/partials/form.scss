@@ -9,7 +9,8 @@
         max-width: 320px;
         margin-bottom: 25px;
 
-        input {
+        input:not([type="file"]),
+        .fileUpload {
             display: block;
             width: 100%;
             padding-top: 10px;
@@ -25,7 +26,17 @@
             background-color: #3498db;
             color: #fff;
         }
+    }
 
+    a {
+        max-width: 320px;
+        width: 100%;
+    }
 
+    .fileUpload {
+        label {
+            font-weight: 300;
+            margin-right: 10px;
+        }
     }
 }
